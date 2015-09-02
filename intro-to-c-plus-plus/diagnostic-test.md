@@ -2,6 +2,8 @@
 
 ####Lectures 1-2
 
+Hello World!
+
 Add days to an enum list and print them
 
 Farenheit to Celsius Table
