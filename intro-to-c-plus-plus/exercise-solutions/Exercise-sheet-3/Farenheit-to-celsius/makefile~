@@ -1,0 +1,2 @@
+Farenheit-to-celsius-modular: Farenheit-to-celsiuss-modular.cpp
+	g++ -Wall -g Farenheit-to-celsiuss-modular.cpp -o Farenheit-to-celsius-modular
