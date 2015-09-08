@@ -2,7 +2,7 @@
 
 ###Chapter 1
 
-Creating the statment
+####Basics 
 
 ```
 man(Socrates).
@@ -36,4 +36,48 @@ Asking Prolog
 ```
 yes
 ```
+
+note: you can also chain together modus ponens
+
+You can also step through the following Knowledge Base
+
+```
+woman(mia).
+woman(jenny).
+```
+
+with the following queries 
+
+```
+?- woman(X).
+```
+```
+mia
+```
+```
+?- ;
+```
+```
+jenny
+```
+```
+?- ;
+```
+```
+no
+```
+
+'And' (conjunction)
+
+```run(jack):-happy(jack),alive(jack). ```
+
+
+'Or' (disjunction)
+
+
+```eat(jack):-hungry(jack);bored(jack). ```
+
+
+
+
 
