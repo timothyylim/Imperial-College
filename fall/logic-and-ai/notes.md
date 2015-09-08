@@ -1,6 +1,6 @@
 #Prolog Notes
 
-###Chapter 1
+###Chapter 1- Facts, Rules and Queries 
 
 ####Basics 
 
@@ -102,6 +102,10 @@ Variables: starts with either uppercase or underscore e.g. Jules, _Jules
 Complex arguments: functor must be an atom
 
 Arity: number of arguments in a complex term
+
+
+###Chapter 2- Matching and Proof Search
+
 
 
 
