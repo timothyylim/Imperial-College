@@ -148,6 +148,31 @@ Concatenate lists
 append([1,2],[2]).
 ```
 
+####Negation 
+
+Operator 
+
+```
+?- student(X), \+ gets_grant(X).
+```
+
+The Negation as Failure rule is proved if all evaluation paths of the query end in failure.
+
+Therefore
+
+```
+dragon(timothy).
+lives_forever(X):- magic(X).
+
+?- dragon(X), \+ lives_forever(X).
+timothy 
+```
+and 
+```
+?- \+ lives_forever(X), dragon(X).
+no
+```
+
 
 
 
