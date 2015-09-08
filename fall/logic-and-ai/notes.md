@@ -29,10 +29,8 @@ mortal(Socrates).
 Asking Prolog 
 
 ```
-?- man(Socrates)
+?- man(Socrates).
 ```
-
-results in
 
 ```
 yes
