@@ -51,18 +51,21 @@ with the following queries
 ```
 ?- woman(X).
 ```
+output
 ```
 mia
 ```
 ```
 ?- ;
 ```
+output
 ```
 jenny
 ```
 ```
 ?- ;
 ```
+output
 ```
 no
 ```
