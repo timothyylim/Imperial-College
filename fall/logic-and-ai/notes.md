@@ -104,7 +104,51 @@ Complex arguments: functor must be an atom
 Arity: number of arguments in a complex term
 
 
-###Chapter 2- Matching and Proof Search
+###Lists
+
+A list is a 'pair' of a first element and a list.
+
+####Unifying Lists
+
+To check if two lists can be unified
+
+```
+[X,Y,Z] = [a,b,c]
+```
+```
+yes
+```
+Check if X is a member of a list
+
+```
+?- is_member_of(3,[1,2,3]).
+```
+
+What elements are in a list (nonmember also works)
+
+```
+?- member(X,[1,2,3]).
+```
+
+Generate a list containing X
+
+```
+?- is_member_of(3,L).
+```
+
+Length of a list
+
+```
+?- length(?L, ?N)
+```
+
+Concatenate lists
+
+```
+append([1,2],[2]).
+```
+
+
 
 
 
