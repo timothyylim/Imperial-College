@@ -14,7 +14,6 @@ Then asking Prolog
 ?- man(Socrates).
 ```
 
-results in 
 ```
 yes 
 ```
