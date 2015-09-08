@@ -110,7 +110,7 @@ A list is a 'pair' of a first element and a list.
 
 ####Unifying Lists
 
-To check if two lists can be unified
+To check if two lists can be unified (\= for the opposite)
 
 ```
 [X,Y,Z] = [a,b,c]
