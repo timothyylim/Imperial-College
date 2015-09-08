@@ -67,6 +67,8 @@ jenny
 no
 ```
 
+####And Or
+
 'And' (conjunction)
 
 ```run(jack):-happy(jack),alive(jack). ```
@@ -76,7 +78,6 @@ no
 
 
 ```eat(jack):-hungry(jack);bored(jack). ```
-
 
 
 
