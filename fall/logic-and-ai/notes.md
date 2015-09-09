@@ -1,6 +1,6 @@
 #Prolog Notes
 
-###Chapter 1- Facts, Rules and Queries 
+###Facts, Rules and Queries 
 
 ####Basics 
 
@@ -197,7 +197,59 @@ alt_max(X,Y,Z):- if Y > Z:
 ```
 
 
+###Aggregating solutions
 
+####Find all solutions
+```
+?-  findall(Object,Goal,List).
+```
+```
+?-  findall(X,descend(martha,X),Z).
+```
+returns
+```
+X  =  _7489 
+Z  =  [charlotte,caroline,laura,rose]
+```
 
+and 
+```
+?-  findall(fromMartha(X),descend(martha,X),Z).
+```
+```
+X  =  _7616
+Z  =  [fromMartha(charlotte),fromMartha(caroline), 
+                                     fromMartha(laura),fromMartha(rose)]
+```
 
+####Bag of
 
+```
+?-  bagof(Child,descend(Mother,Child),List).
+```
+
+```
+   Child  =  _7736 
+   Mother  =  caroline 
+   List  =  [laura,rose]  ; 
+    
+   Child  =  _7736 
+   Mother  =  charlotte 
+   List  =  [caroline,laura,rose]  ; 
+   
+   %etc...
+```
+
+####Set of 
+
+Lists are ordered and contain no redundancies.
+
+Sorting by age with no repeats
+
+```
+?-  setof(Y,X^age(X,Y),Output). 
+    
+Y  =  _8981 
+X  =  _8985 
+Output  =  [13,14,30,60]
+```
