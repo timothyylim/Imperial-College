@@ -39,3 +39,11 @@ lectureTheatre(311)^office(447)
 ```
 ∀ X (student(X) -> has(X,office(Y)) 
 ```
+* A lecturer is happy if the PhD students he/she supervises successfully complete their PhD.
+```
+no idea
+```
+* Not all PhD students complete their PhD.
+```
+~ ∀ X (phd(X) ^ completePhd(X))
+```
