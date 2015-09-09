@@ -25,17 +25,17 @@ lectureTheatre(311)^office(447)
 ```
 ~ ∃ X (lecutrer(X) -> has(X,office(Y) )
 ```
-* !!No lecturers share offices with anyone.
+* No lecturers share offices with anyone.
 ```
 ~ ∃ X (lecutrer(X) -> has(X, (office(Y)
 ```
-* !!Some lecturers supervise PhD students and some do not.
+* Some lecturers supervise PhD students and some do not.
 ```
 ~ ∃ X (lecturer(X) -> suprevises(X,phd(Y) ) ) 
 ^ 
 ∀ X (lecturer(X) -> suprevises(X,phd(Y) ) )
 ```
-* !!Each PhD student has an office, but all PhD students share their office with at least one other PhD student.
+* Each PhD student has an office, but all PhD students share their office with at least one other PhD student.
 ```
 ∀ X (student(X) -> has(X,office(Y)) 
 ```
