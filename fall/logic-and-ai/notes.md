@@ -184,8 +184,16 @@ send(Cust, Balance, Mess):-
 Contionals in Prolog use '->'
 
 ```
-student_fees(S, F):-
-student(S), (eu(S)->F=9000; F=25000).
+alt_max(X,Y,Z) :- Y>Z -> Z=Y;Z=X.
+```
+
+in pseudocode
+
+```
+alt_max(X,Y,Z):- if Y > Z:
+                    Z = Y
+                 else:
+                    Z = X
 ```
 
 
