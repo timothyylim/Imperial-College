@@ -173,8 +173,20 @@ and
 no
 ```
 
+'Cutting' a program if the check is redundant 
 
+```
+send(Cust, Balance, Mess):- 
+    Balance =< 0, !,
+    warning(Cust,Mess).
+```
 
+Contionals in Prolog use '->'
+
+```
+student_fees(S, F):-
+student(S), (eu(S)->F=9000; F=25000).
+```
 
 
 
