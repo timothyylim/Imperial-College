@@ -4,6 +4,6 @@ Repository of material for Msc. in Computing Science for Imperial College.
 
 Contributions welcome.
 
-###Public Service announcement:
+###Public Service announcement
 
-We do not have to use emacs for the intro to C++ course. Do not kill yourselves. 
+We do not have to use emacs for the intro to C++ course. Do not kill yourselves trying to learn it.
