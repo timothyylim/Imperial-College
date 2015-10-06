@@ -1,3 +1,3 @@
 # Imperial-College
 
-Repository of work related to Imeprial College 
+Repository of material for Msc. in Computing Science for Imperial College. Contributions welcome.
