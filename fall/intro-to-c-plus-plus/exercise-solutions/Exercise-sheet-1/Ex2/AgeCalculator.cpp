@@ -37,6 +37,11 @@ int main()
 	if (another_age >= 0) {
 		cout << "Your age in " << another_year << ": "; 
 		cout << another_age << "\n";
+
+	if (another_age >= 150){
+		cout << "Sorry, but you'll probably be dead by " <<another_year << "! \n";
+	}
+
 	} else { 
 		cout << "You weren't even born in ";
 		cout << another_year << "!\n"; 
