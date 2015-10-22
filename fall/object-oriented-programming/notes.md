@@ -8,7 +8,7 @@ State:
 
 person      petrol pump       car   
 
-==========================================
+-----------------------------------
 
 name      petrol_stored     petrol_remaining 
 height    price_per_litre   petrol_tank_capacity
@@ -20,7 +20,8 @@ age                         model
 Behaviour:
 
 
-person                        
-==========================================
+person        
+
+-----------------------------------
 pay(...)
 fill_tank(target : Car, how_much : double) 
