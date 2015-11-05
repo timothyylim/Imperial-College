@@ -1,7 +1,10 @@
 ##Exercise 1
-1. sells(britain, oil, usa).
-
-no
+1. 
+<br>
+  sells(britain, oil, usa).
+  
+  no
+</br>
 
 2. sells(X,grain,Y).
 
