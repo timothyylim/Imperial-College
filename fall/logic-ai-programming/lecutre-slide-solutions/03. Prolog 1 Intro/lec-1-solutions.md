@@ -1,8 +1,7 @@
 ##Exercise 1
 1. 
 <br>
-  sells(britain, oil, usa).
-  
+  sells(britain, oil, usa). 
   no
 </br>
 
